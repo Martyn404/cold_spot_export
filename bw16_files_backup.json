@@ -1,5 +1,0 @@
-{
-  "/bad_ble/scriptW.txt": "DELAY 1000\nGUI r\nDELAY 500\nSTRING powershell\nENTER\nDELAY 800\nSTRING Set-Content ~/test.html '<h1>Pozor kam sa pripajas</h1>'; Start-Process ~/test.html\nENTER",
-  "/bad_ble/scriptM.txt": "DELAY 2000\nSTRING :Pozor kam sa pripajas\nENTER",
-  "/bad_ble/script.txt": "CTRL-ALT t\nDELAY 2000\nSTRING echo '<h1>Pozor kam sa pripajas</h1>' > ~/test.html && firefox ~/test.html\nENTER"
-}
